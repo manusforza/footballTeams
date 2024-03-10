@@ -1,4 +1,4 @@
-package com.example.footballTeam.model;
+package com.example.footballTeam.leagues.model;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;
