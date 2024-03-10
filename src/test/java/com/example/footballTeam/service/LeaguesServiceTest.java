@@ -1,7 +1,8 @@
 package com.example.footballTeam.service;
 
-import com.example.footballTeam.model.League;
-import com.example.footballTeam.model.Leagues;
+import com.example.footballTeam.leagues.model.League;
+import com.example.footballTeam.leagues.model.Leagues;
+import com.example.footballTeam.leagues.service.LeaguesService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

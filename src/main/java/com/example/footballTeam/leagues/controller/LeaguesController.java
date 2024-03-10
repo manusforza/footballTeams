@@ -1,7 +1,7 @@
-package com.example.footballTeam.controller;
+package com.example.footballTeam.leagues.controller;
 
-import com.example.footballTeam.model.League;
-import com.example.footballTeam.service.LeaguesService;
+import com.example.footballTeam.leagues.model.League;
+import com.example.footballTeam.leagues.service.LeaguesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

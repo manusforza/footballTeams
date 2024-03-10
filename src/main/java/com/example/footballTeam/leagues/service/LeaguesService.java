@@ -1,7 +1,7 @@
-package com.example.footballTeam.service;
+package com.example.footballTeam.leagues.service;
 
-import com.example.footballTeam.model.League;
-import com.example.footballTeam.model.Leagues;
+import com.example.footballTeam.leagues.model.League;
+import com.example.footballTeam.leagues.model.Leagues;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

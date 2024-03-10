@@ -1,4 +1,4 @@
-package com.example.footballTeam.configuration;
+package com.example.footballTeam.leagues.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
