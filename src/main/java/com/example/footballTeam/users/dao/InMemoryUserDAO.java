@@ -13,7 +13,7 @@ public class InMemoryUserDAO implements UserDAO {
     }
 
     @Override
-    public int addUser(User user) {
+    public int deleteUser(User user) {
         return 0;
     }
 

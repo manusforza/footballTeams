@@ -14,6 +14,12 @@ public class InMemoryDatabase {
         return 1;
     }
 
+    public static int deleteUser(User user) {
+        user.setId(++lastIndex);
+        users.put(user.getId(), user);
+        return 1;
+    }
+
     public static User getUserById (int id) {
         return users.get(id);
     }
