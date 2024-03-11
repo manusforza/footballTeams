@@ -16,7 +16,7 @@ public class InMemoryDatabase {
 
     public static int deleteUser(User user) {
         user.setId(++lastIndex);
-        users.put(user.getId(), user);
+        users.remove(user.getId(), user);
         return 1;
     }
 
