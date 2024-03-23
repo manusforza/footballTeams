@@ -23,6 +23,15 @@ public class UserService {
         }
     }
 
+    public String deleteUser(User user) {
+        int result = userDAO.deleteUser(user);
+        if (result == 1) {
+            return "Utente eliminato correttamente";
+        } else {
+            return "Errore nell'eliminazione dell'utente";
+        }
+    }
+
     public User getUser(int id) {
         return userDAO.getUserById(id);
     }

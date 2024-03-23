@@ -13,7 +13,14 @@ public class InMemoryUserDAO implements UserDAO {
     }
 
     @Override
+    public int deleteUser(User user) {
+        return InMemoryDatabase.deleteUser(user);
+    }
+
+    @Override
     public User getUserById(int id) {
         return InMemoryDatabase.getUserById(id);
     }
+
+
 }

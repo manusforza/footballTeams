@@ -17,6 +17,8 @@ public class UserController {
     public String addUser(@RequestBody User user) {
         return userService.addUser(user);
     }
+    @PostMapping("/")
+    public String deleteUser(@RequestBody User user) {return userService.deleteUser(user);}
     @GetMapping("/{id}")
     public User getUserById(@PathVariable("id") int id) {
         return userService.getUser(id);
