@@ -13,11 +13,6 @@ public class InMemoryUserDAO implements UserDAO {
     }
 
     @Override
-    public int addUser(User user) {
-        return 0;
-    }
-
-    @Override
     public User getUserById(int id) {
         return InMemoryDatabase.getUserById(id);
     }
